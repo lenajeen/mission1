@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    }
+    
+    /* Style the body */
+    body{
+    font-family: "Tahoma";
+    margin: 0;
+    }
+
+    /* Header - logo or title */
+    .header {
+        padding: 15px;
+        text-align: center;
+        background: rgb(200, 216, 238);
+        color: darkslategrey;
+    }
+
+    /* Style nav bar as flexbox */
+    .navbar {
+        display: flex;
+        background-color: #333;
+    }
+
+    /* Style navigation bar links */
+    .navbar a {
+        color: white;
+        padding: 14px 20px;
+        text-decoration: none;
+        text-align: center;
+        font-family: "Tahoma";
+    }
+
+    /* Change color on hover */
+    .navbar a:hover {
+        background-color: rgb(200, 216, 238);
+        color: darkslategrey;
+    }
+
+    @media screen and (max-width: 768px) {
+        .navbar, .section {
+            flex-direction: column;
+        }
+    }
+
+    /* Column container */
+    .section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /* content */
+    .content {
+        flex: 50%;
+        background-color: #f1f1f1;
+        padding: 20px;
+    }
+
+    
+    /* Footer */
+    .footer {
+        padding: 1px;
+        text-align: center;
+        background: darkslategrey;
+        color: lightgrey;
+        font-family: "Tahoma";
+    }
+
+    /* Extra small devices (phones, 600px and down) */
+    @media screen and (max-width: 600px) {
+        .navbar {
+            font-size: 10px;
+        }
+    }
+
+    /* Do something when screen is landscape on small device */
+    @media only screen and (max-width: 600px) and (orientation: landscape) {
+       
+    }
+
+
+
+    * {
+        font-family: 'your font';
+    }
+    
+    body{
+    font-family: "Tahoma";
+    }
+    
+    .contactform{
+        width: 400px;
+        margin: 10px;
+        border: 10px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-family: "Tahoma";
+    }
+    
+    .label{
+        margin: 10px;
+        color: darkslategrey;
+    }
+    
+    
+    .send{
+        font-family: "Tahoma";
+        border-radius: 20%;
+    }
+    
+    h1 {
+        font-family: "Tahoma";
+    }
+    
+    a {
+        color: grey;
+        text-decoration: none;
+    }
+    
+    #pic {
+        background-image: url("https://cdn.pixabay.com/photo/2018/08/18/13/26/interface-3614766_1280.png");
+        width: 65%;
+        height: 300px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 0px 100px;
+
+    
